@@ -15,7 +15,9 @@ class TennisProcedure extends Procedure
      *
      * @var string
      */
-    public static string $name = 'tennis';
+    public static string $name = 'ganza';
+
+    // public static string $cyubahiro = 'cyubahiro';
 
     /**
      * Execute the procedure.
@@ -26,6 +28,11 @@ class TennisProcedure extends Procedure
      */
     public function ping()
     {
-        return 'pong';
+        return 'first rpc ping first';
+    }
+
+    public function cyubahiro()
+    {
+        return 'cyubahiro first';
     }
 }

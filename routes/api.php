@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/v1/endpoint', [TennisProcedure::class, 'ping']);
+Route::rpc('/v1/endpoint', [TennisProcedure::class]);

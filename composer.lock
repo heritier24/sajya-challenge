@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e33cadf959289e40135f73a8a6c7e132",
+    "content-hash": "38d7b6d946f9f96f32764fd2e9037c7c",
     "packages": [
         {
             "name": "brick/math",
@@ -3122,6 +3122,50 @@
                 }
             ],
             "time": "2022-09-16T03:22:46+00:00"
+        },
+        {
+            "name": "sajya/client",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sajya/client.git",
+                "reference": "7b7bebad1ad23146bdf05d6219444d7b8eacc463"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sajya/client/zipball/7b7bebad1ad23146bdf05d6219444d7b8eacc463",
+                "reference": "7b7bebad1ad23146bdf05d6219444d7b8eacc463",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.4",
+                "laravel/framework": "^8.0|^9.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^7.0",
+                "sajya/server": "^5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sajya\\Client\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "tabuna",
+                    "email": "bliz48rus@gmail.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/sajya/client/issues",
+                "source": "https://github.com/sajya/client/tree/1.0.0"
+            },
+            "time": "2022-10-18T21:44:09+00:00"
         },
         {
             "name": "sajya/server",
